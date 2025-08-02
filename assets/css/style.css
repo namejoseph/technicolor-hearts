@@ -550,7 +550,7 @@ img {
 .button:visited {
     background-color: #C33BBA;
     color: white !important; /* Force white text */
-    /* padding: 10px 25px; */
+    padding: 10px 25px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
