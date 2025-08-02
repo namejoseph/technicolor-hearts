@@ -3,52 +3,121 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Page Title -->
     <title>404 - Page Not Found | Technicolor Hearts</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Sorry, the page you're looking for doesn't exist. Return to Technicolor Hearts homepage to explore our music and content.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://technicolorhearts.com/404.html">
+    <meta property="og:title" content="404 - Page Not Found | Technicolor Hearts">
+    <meta property="og:description" content="Sorry, the page you're looking for doesn't exist. Return to Technicolor Hearts homepage to explore our music and content.">
+    <meta property="og:image" content="https://technicolorhearts.com/wp-content/uploads/2020/03/technicolorheartslogo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Technicolor Hearts">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://technicolorhearts.com/404.html">
+    <meta property="twitter:title" content="404 - Page Not Found | Technicolor Hearts">
+    <meta property="twitter:description" content="Sorry, the page you're looking for doesn't exist. Return to Technicolor Hearts homepage to explore our music and content.">
+    <meta property="twitter:image" content="https://technicolorhearts.com/wp-content/uploads/2020/03/technicolorheartslogo.png">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/qms0avw.css">
-    <link rel="shortcut icon" href="android-chrome-192x192.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://technicolorhearts.com/404.html">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="text-center">
-            <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolorheartslogo.png" alt="Technicolor Hearts" class="logo">
-        </div>
-    </header>
+   <!-- Header -->
+   <header class="header">
+    <div class="text-center">
+        <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolorheartslogo.png"
+            alt="Technicolor Hearts" class="logo">
+    </div>
+</header>
+
+<!-- Social Icons -->
+<div class="social-icons">
+    <div class="text-center">
+        <table>
+            <tr>
+                <td><a href="https://www.instagram.com/technicolorhearts/" target="_blank"><img
+                            src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_logo_social_ig.png"
+                            alt="Instagram" width="20"></a></td>
+                <td width="25"></td>
+                <td><a href="https://www.facebook.com/hellotechnicolorhearts/" target="_blank"><img
+                            src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_logo_social_fb.png"
+                            alt="Facebook" width="20"></a></td>
+                <td width="25"></td>
+                <td><a href="https://twitter.com/technicolorhrtz" target="_blank"><img
+                            src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_logo_social_twitter.png"
+                            alt="Twitter" width="20"></a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <button class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle navigation">☰</button>
+    <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a class="nav-link" href="index.html#rebirth">REBIRTH</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#live">LIVE</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#video">VIDEO</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#bio">BIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">CONTACT</a></li>
+    </ul>
+</nav>
     
     <div class="gradient-bar"></div>
 
     <!-- 404 Content -->
-    <section class="section-contact" style="min-height: 60vh; display: flex; align-items: center; justify-content: center;">
-        <div class="text-center">
-            <h1 class="bungeetext" style="color: #C33BBA; font-size: 120px; margin: 0;">404</h1>
-            <h2 class="bungeetext section-title" style="margin: 20px 0;">PAGE NOT FOUND</h2>
-            <p class="handwritten content-text">Sorry, the page you're looking for doesn't exist.</p>
-            <br>
-            <a href="index.html" class="bungeetext" style="color: #C33BBA; font-size: 20px; text-decoration: none; padding: 15px 30px; border: 2px solid #C33BBA; display: inline-block; transition: all 0.3s ease;">
-                RETURN HOME
-            </a>
-        </div>
-    </section>
+    <main role="main">
+        <section class="section-contact" style="min-height: 60vh; display: flex; align-items: center; justify-content: center;">
+            <div class="text-center">
+                <h1 class="bungeetext" style="color: #C33BBA; font-size: 120px; margin: 0;" aria-label="Error 404">404</h1>
+                <h2 class="bungeetext section-title" style="margin: 20px 0;">PAGE NOT FOUND</h2>
+                <p class="handwritten content-text">Sorry, the page you're looking for doesn't exist.<br>
+                It may have been moved, deleted, or you entered the wrong URL.</p>
+                <br>
+                <a href="index.html" class="button" aria-label="Return to homepage">
+                    RETURN HOME
+                </a>
+            </div>
+        </section>
+    </main>
 
     <div class="gradient-bar"></div>
 
     <!-- Footer -->
-    <footer class="section-footer">
+    <footer class="section-footer" role="contentinfo">
         <div class="text-center">
-            <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolorheartslogo.png" alt="Technicolor Hearts" class="footer-logo"><br>
-            <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_image_wavylines.png" alt="wavy lines" width="50"><br>
-            <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_image_heartfragments.png" alt="heart fragments" class="decorative-image"><br>
-            <p class="handwritten content-text">© 2020 Technicolor Hearts. All rights reserved.</p>
+            <a href="index.html" aria-label="Return to Technicolor Hearts homepage">
+                <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolorheartslogo.png" alt="Technicolor Hearts Logo" class="footer-logo">
+            </a><br>
+            <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_image_wavylines.png" alt="Decorative wavy lines" width="50" role="presentation"><br>
+            <img src="http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_image_heartfragments.png" alt="Decorative heart fragments" class="decorative-image" role="presentation"><br>
+            <p class="handwritten content-text"> <span id="current-year">2024</span> Technicolor Hearts. All rights reserved.</p>
         </div>
     </footer>
 
-    <style>
-        a[href="index.html"]:hover {
-            background-color: #C33BBA;
-            color: white !important;
-        }
-    </style>
+
+    
+
 </body>
 </html>
