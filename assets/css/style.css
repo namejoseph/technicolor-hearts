@@ -87,7 +87,7 @@ a:hover {
 /* Header Styles */
 .header {
     background-color: black;
-    background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_bg_headershards.png');
+    background-image: url('../images/graphics/technicolor-website-bg-headershards.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -211,7 +211,7 @@ a:hover {
 /* Section Styles */
 .section-rebirth {
     background-color: #000000;
-    background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_bg_circleoutlines_lrg.png');
+    background-image: url('../images/graphics/technicolor-website-bg-circleoutlines_lg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -221,13 +221,13 @@ a:hover {
 
 @media only screen and (max-width: 800px) {
     .section-rebirth {
-        background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_bg_circleoutlines_lrg_mobile.png');
+        background-image: url('../images/graphics/technicolor-website-bg-circleoutlines-lg-mobile.png');
     }
 }
 
 .section-video {
     background-color: #000000;
-    background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_bg_triangles.png');
+    background-image: url('../images/graphics/technicolor-website-bg-triangles.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -242,7 +242,7 @@ a:hover {
 
 .section-photo {
     background-color: #000000;
-    background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/IMG_0009-scaled.jpg');
+    background-image: url('../images/photos/technicolor-website-slider-photo2.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -264,7 +264,7 @@ a:hover {
 
 .section-bio {
     background-color: #000000;
-    background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_bg_ring_cropped.jpg');
+    background-image: url('../images/graphics/technicolor-website-bg-ring-cropped.jpg');
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -277,7 +277,7 @@ a:hover {
 
 .section-footer {
     background-color: #000000;
-    background-image: url('http://technicolorhearts.com/wp-content/uploads/2020/03/technicolor_website_bg_footer.jpg');
+    background-image: url('../images/graphics/technicolor-website-bg-footer.jpg');
     background-size: cover;
     background-position: center;
     padding: 40px;
